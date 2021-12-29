@@ -23,4 +23,4 @@ jobs:
       with:
         azPSVersion: '3.1.0'
         inlineScript: |
-          Get-AzVM -ResourceGroupName "vsc-rg"
+          Get-AzResourceGroup
